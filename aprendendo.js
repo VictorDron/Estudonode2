@@ -36,10 +36,11 @@ mongoose.connect('mongodb://localhost/banco', {
         }
 
 
-})
+});
 
 //Collection
 mongoose.model('User', UserSchema);
+const Victor = mongoose.model('User');
 
 new UserSchema({
     nome:'Victor',
