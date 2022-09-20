@@ -48,7 +48,7 @@ const Victor = mongoose.model('User');
 
 new Victor ({
 
-    nome:'Dron',
+    nome:'Eu',
     sobrenome: "Cesar",
     email: 'Victor@',
     idade: 22,
